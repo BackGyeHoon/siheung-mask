@@ -1,10 +1,6 @@
 
 export default {
   mode: 'spa',
-  "routes": [
-    { "src": "/_nuxt/.+", "headers": { "cache-control": "s-maxage=31536000" } },
-    { "src": "/(.*)", "dest": "/" }
-  ],
   /*
   ** Headers of the page
   */
