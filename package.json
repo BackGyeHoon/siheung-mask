@@ -1,0 +1,17 @@
+{
+  "name": "siheung-mask",
+  "version": "1.0.0",
+  "description": "This is a website to guide the mask dealers in Siheung, South Korea.",
+  "author": "Bitbong",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}

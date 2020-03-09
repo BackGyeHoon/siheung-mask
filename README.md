@@ -1,4 +1,24 @@
 # siheung-mask
 
-## 대한민국 경기도 시흥시에서 마스크를 판매 해주고 있는 약국 리스트를 보여준 사이트 입니다.
-## 공공의 목적으로 구현되었기때문에 상업적 용도는 없습니다.
+> This is a website to guide the mask dealers in Siheung, South Korea.
+
+> 대한민국 시흥에서 마스크를 판매중인 약국을 안내하는 사이트 입니다.
+
+## Build Setup
+
+``` bash
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:3000
+$ yarn dev
+
+# build for production and launch server
+$ yarn build
+$ yarn start
+
+# generate static project
+$ yarn generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
