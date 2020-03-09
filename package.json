@@ -8,14 +8,18 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=master --cleanup"
   },
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1",
     "nuxt": "^2.0.0",
+    "push-dir": "^0.4.1",
     "sass-loader": "^8.0.2"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.11.0"
-  }
+  },
+  "homepage": "https://backgyehoon.github.io/siheung-mask/"
 }
