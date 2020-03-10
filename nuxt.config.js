@@ -43,11 +43,7 @@ export default {
   ** Build configuration
   */
   build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend (config, ctx) {
-    }
+    vendor: ['vuetify']
   },
   router: {
     base: '/siheung-mask/'
