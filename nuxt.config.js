@@ -1,6 +1,6 @@
 
 export default {
-  mode: 'spa',
+  mode: 'universal',
   /*
   ** Headers of the page
   */
@@ -33,7 +33,6 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    '@nuxtjs/vuetify'
   ],
   /*
   ** Nuxt.js modules
@@ -44,6 +43,10 @@ export default {
   ** Build configuration
   */
   build: {
-    analyze: true
+    /*
+    ** You can extend webpack config here
+    */
+    extend (config, ctx) {
+    }
   }
 }
