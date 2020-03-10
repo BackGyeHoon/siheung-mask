@@ -45,8 +45,5 @@ export default {
   */
   build: {
     analyze: true
-  },
-  performance: {
-    gzip: false
   }
 }
