@@ -45,6 +45,6 @@ export default {
     vendor: ['vuetify']
   },
   router: {
-    base: '/siheung-mask/'
+    base: '/'
   }
 }
