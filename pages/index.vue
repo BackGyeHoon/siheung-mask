@@ -72,11 +72,15 @@
 </template>
 
 <script>
+import Vue from "vue"
 import List from '~/components/layout/List'
 import Vuetify from "vuetify"
 
+const vuetifyOptions = {}
+Vue.use(Vuetify)
+
 export default {
-    Vuetify,
+    vuetify: new Vuetify(vuetifyOptions),
     components: {
       List
     },
