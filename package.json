@@ -20,6 +20,5 @@
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.11.0"
-  },
-  "homepage": "https://backgyehoon.github.io/siheung-mask/"
+  }
 }
