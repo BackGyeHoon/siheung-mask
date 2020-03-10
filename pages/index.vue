@@ -72,12 +72,11 @@
 </template>
 
 <script>
-import Vue from "vue"
 import List from '~/components/layout/List'
 import Vuetify from "vuetify"
-Vue.use(Vuetify)
 
 export default {
+    Vuetify,
     components: {
       List
     },
