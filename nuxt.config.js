@@ -48,5 +48,10 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+  generate: {
+    routes: [
+      '/siheung-mask/'
+    ]
   }
 }
