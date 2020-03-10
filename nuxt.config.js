@@ -50,6 +50,6 @@ export default {
     }
   },
   router: {
-    base: '/app/'
+    base: '/siheung-mask/'
   }
 }
